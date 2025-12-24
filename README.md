@@ -41,12 +41,3 @@ A minimal, framework-free starter kit for frontend projects using plain HTML, CS
 - LocalStorage demo
 
 Each demo now includes a collapsible **code snippet** to help developers see the minimal implementation.
-
-## Next steps (optional)
-
-- Add a bundler (Vite/Parcel/webpack) if you need ES module bundling or dev server
-- Add a package manager (npm/yarn/pnpm) and scripts for build/test/lint
-
----
-
-Enjoy! If you want, I can add a Vite-based tooling setup, testing, linting or CI next. 🎯
