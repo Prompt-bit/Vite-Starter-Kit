@@ -1,0 +1,26 @@
+{
+  "name": "starter-kit-vanilla",
+  "version": "0.1.0",
+  "description": "Minimal Vanilla JS starter kit (static frontend)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npx serve",
+    "preview": "vite preview --port 5173",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"**/*.{js,css,md,json}\"",
+    "test": "vitest"
+  },
+  "prepare": "husky install",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^2.8.8",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "vitest": "^1.0.0",
+    "vite": "^5.0.0"
+  }
+}
